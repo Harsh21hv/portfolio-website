@@ -1,282 +1,309 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
-      rel="stylesheet"
-    />
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-      }
 
-      body {
-        background-color: rgb(1, 0, 33);
-        color: antiquewhite;
-      }
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
 
-      nav {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        background-color: rgb(16, 15, 61);
-        height: 70px;
-      }
+    body {
+      background-color: rgb(1, 0, 33);
+      color: antiquewhite;
+    }
 
-      nav ul {
-        display: flex;
-        justify-content: center;
-      }
+    nav {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background-color: rgb(16, 15, 61);
+      height: 70px;
+    }
 
-      nav ul li {
-        list-style: none;
-        margin: 0 23px;
-      }
+    nav ul {
+      display: flex;
+      justify-content: center;
+    }
 
-      .left {
-        font-size: 1.5rem;
-      }
+    nav ul li {
+      list-style: none;
+      margin: 0 23px;
+    }
 
-      .firstsection {
-        display: flex;
-        justify-content: space-around;
-        margin: 150px 0;
-        align-items: center;
-      }
-      .firstsection > div {
-        width: 30%;
-      }
-      .leftsection {
-        font-size: 3rem;
-      }
-      .rightsection img {
-        width: 80%;
-      }
-      .harsh {
-        color: rgb(168, 108, 218);
-      }
+    .left {
+      font-size: 1.5rem;
+    }
 
-      nav ul li a {
-        color: white;
-        text-decoration: none;
-      }
-      nav ul li a:hover {
-        color: rgb(145, 145, 228);
-      }
-      #element {
-        color: rgb(168, 108, 218);
-      }
-      main hr {
-        border: 0;
-        background-color: rgb(117, 98, 201);
-        height: 1px;
-        margin: 50px 40px;
-      }
-      .secondsection {
-        max-width: 80vw;
-        margin: auto;
-        height: 50vmax;
-      }
-      .secondsection h1 {
-        font-size: 2rem;
-      }
-      .text-gray {
-        color: gray;
-      }
-      .box {
-        background: white;
-        width: 80vw;
-        height: 2px;
-        margin: 40px 0px;
-        display: flex;
-      }
-      .secondsection .vertical {
-        background-color: aliceblue;
-        height: 80px;
-        width: 1px;
-        margin: 0px 130px;
-      }
-      .image-top {
-        width: 23px;
-        position: relative;
-        top: -24px;
-        left: -10px;
-      }
-      .vertical-title {
-        position: relative;
-        top: 56px;
-        width: 128px;
-        left: -46px;
-      }
-      .vertical-desc {
-        top: 75px;
-        position: relative;
-        width: 150px;
-        font-size: 9px;
-        color: gray;
-        left: -54px;
-      }
-      footer {
-        background-color: rgb(62 62 67 / 52%);
-        height: 180px;
-      }
-      .footer {
-        display: flex;
-        padding: 23px 122px;
-        justify-content: space-evenly;
-      }
-      .footer ul {
-        list-style: none;
-      }
-      .footer > div {
-        width: 220px;
-      }
-      .text-centre{
-        text-align: center;
-        color: gray;
-        padding-top: 40px;
-      }
-      .leftsection .box{
-        padding: 20px;
-      }
-      .btn{
-       padding: 10px;
+    .firstsection {
+      display: flex;
+      justify-content: space-around;
+      margin: 150px 0;
+      align-items: center;
+    }
+
+    .firstsection>div {
+      width: 30%;
+    }
+
+    .leftsection {
+      font-size: 3rem;
+    }
+
+    .rightsection img {
+      width: 80%;
+    }
+
+    .harsh {
+      color: rgb(168, 108, 218);
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+    }
+
+    nav ul li a:hover {
+      color: rgb(145, 145, 228);
+    }
+
+    #element {
+      color: rgb(168, 108, 218);
+    }
+
+    main hr {
+      border: 0;
+      background-color: rgb(117, 98, 201);
+      height: 1px;
+      margin: 50px 40px;
+    }
+
+    .secondsection {
+      max-width: 80vw;
+      margin: auto;
+      height: 50vmax;
+    }
+
+    .secondsection h1 {
+      font-size: 2rem;
+    }
+
+    .text-gray {
+      color: gray;
+    }
+
+    .box {
+      background: white;
+      width: 80vw;
+      height: 2px;
+      margin: 40px 0px;
+      display: flex;
+    }
+
+    .secondsection .vertical {
+      background-color: aliceblue;
+      height: 80px;
+      width: 1px;
+      margin: 0px 130px;
+    }
+
+    .image-top {
+      width: 23px;
+      position: relative;
+      top: -24px;
+      left: -10px;
+    }
+
+    .vertical-title {
+      position: relative;
+      top: 56px;
+      width: 128px;
+      left: -46px;
+    }
+
+    .vertical-desc {
+      top: 75px;
+      position: relative;
+      width: 150px;
+      font-size: 12px;
+      color: gray;
+      left: -54px;
+    }
+
+    footer {
+      background-color: rgb(62 62 67 / 52%);
+      height: 180px;
+    }
+
+    .footer {
+      display: flex;
+      padding: 23px 122px;
+      justify-content: space-evenly;
+    }
+
+    .footer ul {
+      list-style: none;
+    }
+
+    .footer>div {
+      width: 220px;
+    }
+
+    .text-centre {
+      text-align: center;
+      color: gray;
+      padding-top: 40px;
+    }
+
+    .leftsection .box {
+      padding: 20px;
+    }
+
+    .btn {
+      padding: 10px;
       background-color: color(prophoto-rgb 0.16 0.14 0.26);
-    color: white;
-    border: 2px solid white;
-    border-radius: 5px;
-    font-size: 15px;
-    cursor: pointer;
-      }
-    </style>
-  </head>
-  <body>
-    <header>
-      <nav>
-        <div class="left">Harsh's portfolio</div>
-        <div class="right">
-          <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/">About</a></li>
-            <li><a href="/">Services</a></li>
-            <li><a href="/">Projects</a></li>
-            <li><a href="/">Contact Me</a></li>
-          </ul>
-        </div>
-      </nav>
-    </header>
+      color: white;
+      border: 2px solid white;
+      border-radius: 5px;
+      font-size: 15px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+  </style>
+</head>
 
-    <main>
-      <section class="firstsection">
-        <div class="leftsection">
-          Hi,my name is <span class="harsh">Harsh</span>
-          <div class="pass">and i am a passionate</div>
-          <span id="element"></span>
-          <button class="btn">Download resume</button>
-          <button class="btn">Github</button>
-        </div>
+<body>
+  <header>
+    <nav>
+      <div class="left">Harsh's portfolio</div>
+      <div class="right">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="https://www.linkedin.com/in/harshvardhantripathi21/">About</a></li>
 
-        <div class="rightsection">
-          <img src="bg.png.png" alt style="width: 80%" />
-        </div>
-      </section>
-      <hr />
-      <section class="secondsection">
-        <span class="text-gray">What i have done so far</span>
-        <h1>Work experience</h1>
-        <div class="box">
-          <div class="vertical">
-            <img class="image-top" src="html.png" alt="" />
-            <div class="vertical-title">HTML developer</div>
-            <div class="vertical-desc">
-              Create and maintain high-quality, clean, and well-structured HTML
-              and CSS code for web applications, websites, and email
-              templates.Ensure that web content is responsive and displays
-              correctly on various devices and screen sizes.Ensure that web
-              content functions consistently across different web browsers.
-            </div>
-          </div>
-          <div class="vertical">
-            <img class="image-top" src="React.png" alt="" />
-            <div class="vertical-title">REACT developer</div>
-            <div class="vertical-desc">
-              Create and maintain high-quality, clean, and well-structured HTML
-              and CSS code for web applications, websites, and email
-              templates.Ensure that web content is responsive and displays
-              correctly on various devices and screen sizes.Ensure that web
-              content functions consistently across different web browsers.
-            </div>
-          </div>
-          <div class="vertical">
-            <img class="image-top" src="node.png" alt="" />
-            <div class="vertical-title">NODE developer</div>
-            <div class="vertical-desc">
-              Create and maintain high-quality, clean, and well-structured HTML
-              and CSS code for web applications, websites, and email
-              templates.Ensure that web content is responsive and displays
-              correctly on various devices and screen sizes.Ensure that web
-              content functions consistently across different web browsers.
-            </div>
-          </div>
-          <div class="vertical">
-            <img class="image-top" src="javascript.png" alt="" />
-            <div class="vertical-title">JAVASCRIPT developer</div>
-            <div class="vertical-desc">
-              Create and maintain high-quality, clean, and well-structured HTML
-              and CSS code for web applications, websites, and email
-              templates.Ensure that web content is responsive and displays
-              correctly on various devices and screen sizes.Ensure that web
-              content functions consistently across different web browsers.
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
+          <li><a href="https://github.com/Harsh21hv?tab=repositories">Projects</a></li>
+          <li><a href="https://mail.google.com/mail/u/0/?ogbl#inbox?compose=new">Ask Something</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
 
-    <footer>
-      <div class="footer">
-        <div class="footer-first">
-          <h3>Harsh's developer portfolio.</h3>
-        </div>
-        <div class="footer-second">
-          <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Services</li>
-            <li>Contact</li>
-          </ul>
-        </div>
-        <div class="footer-third">
-          <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Services</li>
-            <li>Contact</li>
-          </ul>
-        </div>
-        <div class="footer-forth">
-          <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Services</li>
-            <li>Contact</li>
-          </ul>
+  <main>
+    <section class="firstsection">
+      <div class="leftsection">
+        Hi,my name is <span class="harsh">Harsh</span>
+        <div class="pass">and i am a passionate</div>
+        <span id="element"></span>
+
+        <div> <a class="btn" href="Harsh Vardhan Tripathi Resume (m).pdf" download>Download Resume</a>
+          <a class="btn" href="https://github.com/Harsh21hv?tab=repositories">Github</a>
+
         </div>
       </div>
-      <div class="text-centre">	copyright &#169 Harsh's portfolio.com | All rights reserved</div>
-    </footer>
-    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-    <script>
-      var typed = new Typed("#element", {
-        strings: ["Web developer", "Web designer", "Graphic designer"],
-        typeSpeed: 50,
-      });
-    </script>
-  </body>
+
+      <div class="rightsection">
+        <img src="bg.png.png" alt style="width: 80%" />
+      </div>
+    </section>
+    <hr />
+    <section class="secondsection">
+      <span class="text-gray">What i have done so far</span>
+      <h1>Work experience</h1>
+      <div class="box">
+        <div class="vertical">
+          <img class="image-top" src="html.png" alt="" />
+          <div class="vertical-title">HTML developer</div>
+          <div class="vertical-desc">
+            Create and maintain high-quality, clean, and well-structured HTML
+            and CSS code for web applications, websites, and email
+            templates.Ensure that web content is responsive and displays
+            correctly on various devices and screen sizes.Ensure that web
+            content functions consistently across different web browsers.
+          </div>
+        </div>
+        <div class="vertical">
+          <img class="image-top" src="React.png" alt="" />
+          <div class="vertical-title">REACT developer</div>
+
+          <div class="vertical-desc">
+            Create and maintain high-quality, clean, and well-structured HTML
+            and CSS code for web applications, websites, and email
+            templates.Ensure that web content is responsive and displays
+            correctly on various devices and screen sizes.Ensure that web
+            content functions consistently across different web browsers.
+          </div>
+        </div>
+        <div class="vertical">
+          <img class="image-top" src="node.png" alt="" />
+          <div class="vertical-title">NODE developer</div>
+          <div class="vertical-desc">
+            Create and maintain high-quality, clean, and well-structured HTML
+            and CSS code for web applications, websites, and email
+            templates.Ensure that web content is responsive and displays
+            correctly on various devices and screen sizes.Ensure that web
+            content functions consistently across different web browsers.
+          </div>
+        </div>
+        <div class="vertical">
+          <img class="image-top" src="javascript.png" alt="" />
+          <div class="vertical-title">JAVASCRIPT developer</div>
+          <div class="vertical-desc">
+            Create and maintain high-quality, clean, and well-structured HTML
+            and CSS code for web applications, websites, and email
+            templates.Ensure that web content is responsive and displays
+            correctly on various devices and screen sizes.Ensure that web
+            content functions consistently across different web browsers.
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer">
+      <div class="footer-first">
+        <h3>Harsh's developer portfolio.</h3>
+      </div>
+      <div class="footer-second">
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Services</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+      <div class="footer-third">
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Services</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+      <div class="footer-forth">
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Services</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+    </div>
+    <div class="text-centre"> copyright &#169 Harsh's portfolio.com | All rights reserved</div>
+  </footer>
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed("#element", {
+      strings: ["Web developer", "Web designer"],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+
 </html>
